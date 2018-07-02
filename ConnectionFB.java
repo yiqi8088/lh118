@@ -30,4 +30,8 @@ public class ConnectionFB implements FactoryBean<Connection> {
     public boolean isSingleton() {/*控制该对象是单例还是多例*/
         return false;
     }
+
+    public static void main(String[] args) {
+        System.out.println("Hello Git");
+    }
 }
